@@ -3,7 +3,7 @@
 
 #include<iostream>
 using namespace std;
-void showboard(char board[3][3])
+void showboard(char board[3][3])      //  Function to print current board
 {
     for(int i=0;i<3;i++)
     {
@@ -16,7 +16,7 @@ void showboard(char board[3][3])
     }
     cout<<endl;
 }
-int CheckWin(char board[3][3])
+int CheckWin(char board[3][3])     // function to check if anyone win in current turn
 {
     for(int i=0;i<3;i++)
     {
@@ -41,7 +41,7 @@ int CheckWin(char board[3][3])
     return 0;
 }
 
-void UserTurn(char board[3][3], char player)
+void UserTurn(char board[3][3], char player)      // Function for user turn- to place respective O/X
 {
     int user_input;
     cout<<"User "<<player<<" turn : ";
@@ -67,12 +67,13 @@ void UserTurn(char board[3][3], char player)
 /****************************************************               MAIN                 ********************************************************/
 int main()
 {
+    // Initialize Board
     char board[3][3] = {{'.','.','.'},
                         {'.','.','.'},
                         {'.','.','.'}};// game board
 //
     int count =1;
-    // Here Draw Board for UI
+    // Draw Board for UI
     for(int i=0;i<3;i++)
     {
         cout<<"-------------------------------------------------\n";
