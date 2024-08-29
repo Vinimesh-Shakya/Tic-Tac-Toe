@@ -7,8 +7,8 @@ Tic-Tac-Toe, also known as Noughts and Crosses, is a simple yet strategic game f
 
 Methodology 
 
-Both Game uses simple 2-D character arrays (3x3) 
+Both Game uses simple 2-D character arrays (3x3) ,
 Loop & Functions for Game 
 
-TicTacToe_VS_Com.cpp file contains the game for Single player 
+TicTacToe_VS_Com.cpp file contains the game for Single player ,
 TTT_2P.cpp file for 2-Players
