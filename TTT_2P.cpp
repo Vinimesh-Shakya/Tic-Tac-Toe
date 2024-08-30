@@ -74,6 +74,7 @@ int main()
 //
     int count =1;
     // Draw Board for UI
+    // For players to remember board blocks
     for(int i=0;i<3;i++)
     {
         cout<<"-------------------------------------------------\n";
