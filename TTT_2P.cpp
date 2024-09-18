@@ -3,7 +3,7 @@
 
 #include<iostream>
 using namespace std;
-void showboard(char board[3][3])      //  Function to print current board
+void showboard(char board[3][3])
 {
     for(int i=0;i<3;i++)
     {
@@ -16,7 +16,7 @@ void showboard(char board[3][3])      //  Function to print current board
     }
     cout<<endl;
 }
-int CheckWin(char board[3][3])     // function to check if anyone win in current turn
+int CheckWin(char board[3][3])
 {
     for(int i=0;i<3;i++)
     {
@@ -41,7 +41,7 @@ int CheckWin(char board[3][3])     // function to check if anyone win in current
     return 0;
 }
 
-void UserTurn(char board[3][3], char player)      // Function for user turn- to place respective O/X
+void UserTurn(char board[3][3], char player)
 {
     int user_input;
     cout<<"User "<<player<<" turn : ";
@@ -67,14 +67,12 @@ void UserTurn(char board[3][3], char player)      // Function for user turn- to 
 /****************************************************               MAIN                 ********************************************************/
 int main()
 {
-    // Initialize Board
     char board[3][3] = {{'.','.','.'},
                         {'.','.','.'},
                         {'.','.','.'}};// game board
 //
     int count =1;
-    // Draw Board for UI
-    // For players to remember board blocks
+    // Here Draw Board for UI
     for(int i=0;i<3;i++)
     {
         cout<<"-------------------------------------------------\n";
@@ -89,15 +87,17 @@ int main()
     char player2 = 'O';
     showboard(board);
     // game loop
-    for(int i=0;i<9;i++)
+    for(int i=0;i<5;i++)
     {
-        if(i == 8)
+        
+        UserTurn(board,player1);
+        showboard(board);
+        if(i == 4)
         {
             showboard(board);
             cout<<"Draw! Try again!";
+            break;
         }
-        UserTurn(board,player1);
-        showboard(board);
         if(CheckWin(board) == 1)
         {
             showboard(board);
