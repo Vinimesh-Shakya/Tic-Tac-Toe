@@ -89,7 +89,7 @@ int main()
     char player2 = 'O';
     showboard(board);
     // game loop
-    for(int i=0;i<=9;i++)
+    for(int i=0;i<9;i++)
     {
         if(i == 9)
         {
