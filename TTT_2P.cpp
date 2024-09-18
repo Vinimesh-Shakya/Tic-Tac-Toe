@@ -91,7 +91,7 @@ int main()
     // game loop
     for(int i=0;i<9;i++)
     {
-        if(i == 9)
+        if(i == 8)
         {
             showboard(board);
             cout<<"Draw! Try again!";
