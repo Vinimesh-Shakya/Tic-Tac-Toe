@@ -29,4 +29,4 @@ To run the file:
    ```bash
    git clone https://github.com/Vinimesh-Shakya/Tic-Tac-Toe
    ```
-2. Run the file using VS Code or C++ IDE.
+2. Run the file using VS Code or any other C++ IDE.
