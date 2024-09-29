@@ -20,3 +20,13 @@ This File contains the C++ implementation of the game working for single user in
 
 # TTT_2P.cpp file 
 This File contains the C++ implementation of the game working on 2 user input for **X** user and **O** user.
+
+## Usage
+
+To run the file:
+1. Clone the repository.
+
+   ```bash
+   git clone https://github.com/Vinimesh-Shakya/Tic-Tac-Toe
+   ```
+2. Run the file using VS Code or C++ IDE.
