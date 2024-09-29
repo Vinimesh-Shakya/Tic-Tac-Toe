@@ -1,14 +1,22 @@
 # Tic-Tac-Toe
 This C++ implementation of Tic-Tac-Toe provides a solid foundation for understanding game development concepts and the use of arrays in programming.
 
-Introduction
+# Description
 
-Tic-Tac-Toe, also known as Noughts and Crosses, is a simple yet strategic game for two players. The objective is to form a line of three identical symbols (either 'X' or 'O') horizontally, vertically, or diagonally. This C++ implementation provides both single-player and two-player modes, offering a fun and challenging experience.
+Tic-Tac-Toe, also known as Noughts and Crosses, is a simple yet strategic game for two players. 
 
-Methodology 
+The objective is to form a line of three identical symbols (either 'X' or 'O') horizontally, vertically, or diagonally. 
 
-Both Game uses simple 2-D character array (3x3) ,
-Loop & Functions for Game 
+This C++ implementation provides both single-player and two-player modes, offering a fun and challenging experience.
 
-TicTacToe_VS_Com.cpp file contains the game for Single player ,
-TTT_2P.cpp file for 2-Players
+# Methodology 
+
+- 2-D character array (3x3)
+- Loops
+- Functions 
+
+# TicTacToe_VS_Com.cpp file
+This File contains the C++ implementation of the game working for single user input and Computer input.
+
+# TTT_2P.cpp file 
+This File contains the C++ implementation of the game working on 2 user input for **X** user and **O** user.
